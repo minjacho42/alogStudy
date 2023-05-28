@@ -7,7 +7,7 @@ class Solution:
                 mid = (start + end) // 2
                 if nums[mid] == target:
                     answer = mid
-                    break
+                    break 
                 elif nums[mid] > target:
                     end = mid-1
                 else:

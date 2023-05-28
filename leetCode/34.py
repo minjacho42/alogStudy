@@ -16,7 +16,7 @@ class Solution:
             return answer
         mid = searchMid(nums, target)
         if mid == -1:
-            return answer
+            return answer 
         answer = [mid,mid]
         while True:
             result = searchMid(nums[:answer[0]],target)
